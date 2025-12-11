@@ -1,0 +1,41 @@
+1:27:01 PM  [main] 	Initializing Control Panel
+1:27:01 PM  [main] 	Windows Version:  Enterprise  64-bit
+1:27:01 PM  [main] 	XAMPP Version: 8.2.12
+1:27:01 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+1:27:01 PM  [main] 	You are not running with administrator rights! This will work for
+1:27:01 PM  [main] 	most application stuff but whenever you do something with services
+1:27:01 PM  [main] 	there will be a security dialogue or things will break! So think 
+1:27:01 PM  [main] 	about running this application with administrator rights!
+1:27:01 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+1:27:01 PM  [main] 	Checking for prerequisites
+1:27:03 PM  [main] 	All prerequisites found
+1:27:03 PM  [main] 	Initializing Modules
+1:27:03 PM  [main] 	Starting Check-Timer
+1:27:03 PM  [main] 	Control Panel Ready
+1:27:56 PM  [Apache] 	Attempting to start Apache app...
+1:27:56 PM  [Apache] 	Status change detected: running
+12:44:21 AM  [Apache] 	Attempting to stop Apache (PID: 19032)
+12:44:21 AM  [Apache] 	Attempting to stop Apache (PID: 10876)
+12:44:22 AM  [Apache] 	Status change detected: stopped
+12:44:37 AM  [main] 	Deinitializing Modules
+12:44:37 AM  [main] 	Deinitializing Control Panel
+
+3:33:26 PM  [main] 	Initializing Control Panel
+3:33:26 PM  [main] 	Windows Version:  Enterprise  64-bit
+3:33:26 PM  [main] 	XAMPP Version: 8.2.12
+3:33:26 PM  [main] 	Control Panel Version: 3.3.0  [ Compiled: Apr 6th 2021 ]
+3:33:26 PM  [main] 	You are not running with administrator rights! This will work for
+3:33:26 PM  [main] 	most application stuff but whenever you do something with services
+3:33:26 PM  [main] 	there will be a security dialogue or things will break! So think 
+3:33:26 PM  [main] 	about running this application with administrator rights!
+3:33:26 PM  [main] 	XAMPP Installation Directory: "c:\xampp\"
+3:33:26 PM  [main] 	Checking for prerequisites
+3:33:28 PM  [main] 	All prerequisites found
+3:33:28 PM  [main] 	Initializing Modules
+3:33:28 PM  [main] 	Starting Check-Timer
+3:33:28 PM  [main] 	Control Panel Ready
+3:43:37 PM  [Apache] 	Attempting to start Apache app...
+3:43:37 PM  [Apache] 	Status change detected: running
+4:48:15 PM  [main] 	Deinitializing Modules
+4:48:15 PM  [main] 	Deinitializing Control Panel
+
