@@ -1,7 +1,6 @@
 <?php
 
 namespace App\Http\Controllers;
-// app/Http/Controllers/CourseController.php
 
 use App\Models\Course;
 use Illuminate\Http\Request;
@@ -9,12 +8,12 @@ use App\Http\Controllers\Controller;
 
 class CourseController extends Controller
 {
-    // READ (Index): Display a list of courses created by the authenticated user
+    // READ (Index): Display a list of courses
     public function index()
-    {
-        $courses = auth()->user()->courses()->latest()->get();
-        return view('courses.index', compact('courses'));
-    }
+{
+    $courses = auth()->user()->courses()->latest()->get();
+    return view('courses.index', compact('courses'));
+}
 
     // CREATE (Create): Show the form to create a new course
     public function create()

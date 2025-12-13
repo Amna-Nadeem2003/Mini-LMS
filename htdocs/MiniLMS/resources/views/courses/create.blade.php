@@ -19,23 +19,17 @@
                         </div>
 
                         <div class="mt-4">
-                            <x-input-label for="description" :value="__('Description')" />
-                            <textarea id="description" name="description" rows="4" class="block mt-1 w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm" required>{{ old('description') }}</textarea>
-                            <x-input-error :messages="$errors->get('description')" class="mt-2" />
-                        </div>
-                        
-                        <div class="mt-4">
-                            <x-input-label for="code" :value="__('Course Code (e.g., CS101)')" />
+                            <x-input-label for="code" :value="__('Course Code (Unique)')" />
                             <x-text-input id="code" class="block mt-1 w-full" type="text" name="code" :value="old('code')" required />
                             <x-input-error :messages="$errors->get('code')" class="mt-2" />
                         </div>
-
+                        
                         <div class="mt-4">
-                            <x-input-label for="credits" :value="__('Credits')" />
-                            <x-text-input id="credits" class="block mt-1 w-full" type="number" name="credits" :value="old('credits')" required min="1" />
-                            <x-input-error :messages="$errors->get('credits')" class="mt-2" />
+                            <x-input-label for="description" :value="__('Description')" />
+                            <textarea id="description" name="description" rows="4" class="block w-full border-gray-300 focus:border-indigo-500 focus:ring-indigo-500 rounded-md shadow-sm mt-1" required>{{ old('description') }}</textarea>
+                            <x-input-error :messages="$errors->get('description')" class="mt-2" />
                         </div>
-
+                        
                         <div class="flex items-center justify-end mt-4">
                             <x-primary-button class="ml-4">
                                 {{ __('Save Course') }}

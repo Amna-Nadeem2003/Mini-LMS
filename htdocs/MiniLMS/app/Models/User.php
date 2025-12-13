@@ -45,4 +45,22 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    // Relationship: User has many courses
+    public function courses()
+    {
+        return $this->hasMany(Course::class);
+    }
+
+    // Relationship: User has many faculty members
+    public function faculties()
+    {
+        return $this->hasMany(Faculty::class);
+    }
+
+    // Relationship: User has many students
+    public function students()
+    {
+        return $this->hasMany(Student::class);
+    }
 }
