@@ -1,2 +1,0 @@
-2025-12-13 21:54:57 0x2a08 Error in foreign key constraint of table `laravel`.`courses`:
-Alter  table `laravel`.`courses` with foreign key constraint failed. Referenced table `laravel`.`users` not found in the data dictionary near ' foreign key (`user_id`) references `users` (`id`) on delete cascade'.
